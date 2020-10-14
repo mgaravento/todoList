@@ -1,41 +1,22 @@
 [
   {
-    "name": "Estudiar para la clase de hoy",
-    "deadline": "28/09/2020",
-    "done": true
-  },
-  {
-    "name": "Poder ingresar las cosas",
-    "deadline": "01/10/2020",
-    "done": true
-  },
-  {
-    "name": "Estudiar GIT",
-    "deadline": "05/10/2020",
+    "name": "prueba3",
+    "deadline": "19/10/2020",
     "done": false
   },
   {
-    "name": "SCRUM",
-    "deadline": "08/10/2020",
+    "name": "prueba0",
+    "deadline": "15/01/2021",
     "done": false
   },
   {
-    "name": "25/10/2020",
-    "done": true
-  },
-  {
-    "name": "prueba",
-    "deadline": "25/10/2020",
+    "name": "prueba2",
+    "deadline": "15/04/2021",
     "done": false
   },
   {
-    "name": "prueba",
-    "deadline": "25/10/2020",
-    "done": false
-  },
-  {
-    "name": "prueba",
-    "deadline": "25/10/2020",
+    "name": "prueba6",
+    "deadline": "15/12/2021",
     "done": false
   }
 ]
