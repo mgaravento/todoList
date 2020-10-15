@@ -44,6 +44,9 @@ switch (param) {
   case "remove":
     erase(process.argv[3]);
     break;
+  case "clear":
+    clearAll ();
+    break; 
   default:
     console.log(help);
 }
@@ -54,6 +57,9 @@ function showAll() {
     const task = tasks[i];
     const doneText = task.done ? "✔" : "⛔";
     console.log(`- [${doneText}] ${task.name} (${task.deadline})`);
+  }
+  if(tasks.length === 0){
+    console.log('No hay tareas en la lista')
   }
 }
 
@@ -110,6 +116,13 @@ function erase(name) {
       save()
     }
   }
+  showAll()
+}
+
+
+function clearAll(){
+  tasks.length = 0
+  save()
   showAll()
 }
 
